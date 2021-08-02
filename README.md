@@ -1,4 +1,4 @@
-# Django Docker Swarm Example
+# Django Docker Swarm Example 
 An example project for deploying Django on Docker Swarm.
 
 Read the full documentation with a detailed walkthrough at https://django-docker-swarm-example.readthedocs.io/en/latest/.
