@@ -30,7 +30,7 @@ if DEBUG:
     ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 else:
     # Include your domain or IP address here
-    ALLOWED_HOSTS = ["django-swarm-example.grahamhoyes.com"]
+    ALLOWED_HOSTS = ["yuying.newhacks.ca"]
 
 
 # Application definition
