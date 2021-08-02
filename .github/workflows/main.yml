@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: yuying-liang/django-swarm-practice
   STACK_NAME: django-swarm-example
 
 jobs:
@@ -105,7 +105,7 @@ jobs:
           overwrite: true
           # scp-action doesn't obey working-directory, runs at repo root
           source: "app/static/"
-          target: "/usr/src/${{ github.repository }}"
+          target: "/usr/src/yuying-liang/django-swarm-practice"
           strip_components: 1
       - name: Set up SSH
         run: |
